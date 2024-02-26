@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>practice make perfect</title>
+  <link rel="stylesheet" href="ani.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body style="overflow-y: auto; overflow-x: hidden;  background-image: url(backgroungImages.jpg);">
+  <div class="jumia">
+    <div id="pink" class="longlogocontainer">
+      <img src="jumia logo.gif" alt="dh" class="longlogo" />
+    </div>
+    <div class="starlogocontainer">
+      <img src="jumia logo.png" alt="jumia logo" class="starlogo" />
+      <p class="sellonjumia">sell on jumia</p>
+      <img src="jumia logo plus star.png" alt="logo" class="jumialogoplusstar" />
+      <img src="jumia pay.png" alt="jumiapay" class="jumiapay" id="jumiapay" onmouseover="myfunction()"
+        onmouseout="myfunction2()" />
+      <img src="jumialogisticlogo.png" alt="jumia logistic logo" class="jumialogisticlogo" id="jumialogistic"
+        onmouseout="myfunction4()" onmouseover="myfunction3()" />
+    </div>
+    <div class="thirdcointainer">
+      <img src="jumia logo plus star.png" alt="star logo" class="jumialogo2" />
+      <input type="text" class="input" placeholder="Search products, brands and categories" id="input"
+        onclick="myfunction5()" />
+      <i class="fa fa-search"></i>
+      <button type="button" class="button1">SEARCH</button>
+
+      <label class="dropdown" onmouseover="myfunction5()" onmouseout="resetColor()" id="dropdow" onclick=" usethis()">
+        <i class="fa fa-user-o" style="font-size: 20px" id="user"> </i>Account<i class="fa fa-angle-down" id="down"
+          onclick="oppoff()"></i></label>
+
+      <div class="dropdown-content" id="dropdown-conten">
+        <div class="signin" onmouseover="" onmouseout="" id="fine">
+          <a href="#sing" class="a1">
+            <p class="para" id="emi">SIGN IN</p>
+          </a>
+        </div>
+        <a href="#" class="a2"><i class="fa fa-user-o" style="font-size: 20px"></i> My account</a>
+        <a href="#" class="a3">
+          <i class="fa fa-shopping-basket" style="font-size: 20px; margin-right: 7px"></i>Orders</a>
+        <a href="#" class="a4">
+          <i class="fa fa-heart-o" style="font-size: 20px; margin-right: 7px"></i>
+          Saved Items</a>
+      </div>
+      <label class="trig-df-i-ctr-fs16" onclick="helpme()" id="2nddropdownbtn">
+        <i class="fa fa-question-circle-o" id="o1"></i>
+        <span class="Help" id="spanner">Help</span>
+        <i class="fa fa-angle-down" id="family" onclick="off()"></i>
+      </label>
+      <div class="inbox" id="dropme">
+        <a href="#">Help Center</a>
+        <a href="#">Place an order</a>
+        <a href="#">Payment option</a>
+        <a href="#">Track an order</a>
+        <a href="#">cancel an order</a>
+        <a href="#">Returns & Refunds</a>
+        <hr class="before" />
+        <div class="btndiv">
+          <button class="btn">
+            <img src="chat.png" class="chat" />
+            <span class="livechat">LIVE CHAT</span>
+          </button>
+        </div>
+      </div>
+      <div class="class">
+        <img src="shopping.png" class="image09" /> <span>Cart</span>
+      </div>
+    </div>
+    <div class="center">
+      <div class="items">
+        <a href="#"><i class="fa-solid fa-apple-whole"></i> <span>Supermarket</span></a>
+        <a href="#"><i class="fa-solid fa-notes-medical"></i></i><span>Health & Beauty</span></a>
+        <a href="#"><i class="fa-solid fa-house"></i> <span>Home & Office</span></a>
+        <a href="#"> <i class="fa-solid fa-blender-phone"></i> <span>Appliances</span></a>
+        <a href="#"><i class="fa-solid fa-phone"></i><span>Phone & Tablet</span></a>
+        <a href="#"><i class="fa-solid fa-computer"></i> <span>Computing</span></a>
+        <a href="#"><i class="fa-solid fa-tv"></i><span>Electronics</span></a>
+        <a href="#"><i class="fa-solid fa-shirt"></i>Fashion</a>
+        <a href="#"><i class="fa-solid fa-baby"></i><span>Baby products</span></a>
+        <a href="#"><i class="fa-solid fa-gamepad"></i><span>Gaming</span></a>
+        <a href="#"><i class="fa-solid fa-dumbbell"></i><span>Sporting Goods</span></a>
+        <a href="#"><i class="fa-solid fa-folder-tree"></i><span>Other categories</span></a>
+      </div>
+      <div class="imgincenter">
+        <img id="imgflip" src="">
+        <div class="circlebuttoncontainer">
+          <button class="circlebutton"></button>
+          <button class="circlebutton"></button>
+          <button class="circlebutton"></button>
+          <button class="circlebutton"></button>
+          <button class="circlebutton"></button>
+          <button class="circlebutton"></button>
+          <button class="circlebutton"></button>
+        </div>
+      </div>
+      <div class="call">
+        <div class="first">
+          <div class="phonecontainer"> <i class="fa-solid fa-phone"></i></div>
+          <span>CALL TO ORDER</span>
+          <span class="number"> 0700-600-0000</span>
+        </div>
+        <div class="first2">
+          <div class="phonecontainer2"> <i class="fa-solid fa-house"></i></div>
+          <span class="number1">Sell on jumia</span>
+        </div>
+        <div class="first3"> <img src="arrow image.png"> <span class="number3">Best Deals</span></div>
+      </div>
+      <div class="callme"> <img src="jumia force.png" class="shop"></div>
+    </div>
+    <div class="aftercenterM">
+      <div class="aftercenter">
+        <div class="straight">
+          <div class="arrowdiv2" id="left"><i class="fa-solid fa-angle-left"></i> </div>
+        </div>
+        <div class="straight2">
+          <div class="arrowdiv" id="front"><i class="fa-solid fa-angle-right" id="right"></i></div>
+        </div>
+        <div class="divContainer" id="likedropdown">
+          <div><img src="clearance.gif"> <span>Clearance Sale</span> </div>
+          <div> <img src="bestdeals.png"><span>Best Deals</span></div>
+          <div> <img src="phone & tablets.png"> <span>Phone & Tablets</span></div>
+          <div><img src="computing.png"> <span>Computing Deals</span></div>
+          <div><img src="groceries.png"> <span>Groceries</span></div>
+          <div><img src="tele.png"><span> Television</span></div>
+          <div><img src="store.png"><span>Official Store Deals</span></div>
+          <div><img src="men.png"> <span>Men's Sneakers</span></div>
+          <div><img src="gen.png"> <span>Generators</span></div>
+          <div><img src="kkkkk.png"><span> &#x20A6 5,000 Store</span></div>
+          <div><img src="ref.png"><span> Refrigerator</span></div>
+          <div><img src="mobile.png"><span> Mobile Accesories</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="next">
+      <div class="insideNext">
+        <img src="jumia val.png">
+      </div>
+    </div>
+    <div class="offsetwidth" onmouseover="showYou()" onmouseout=" hideyou()">
+      <div class="arrowdiv3" id="arrowdivo" onclick="moveByFire()"><i class="fa-solid fa-angle-left"></i> </div>
+      <div class="arrowdiv4" id="arrowdivp" onclick="moveByForce()"><i class="fa-solid fa-angle-right"></i></div>
+      <p class="offsetwidthtop"> Top selling items</p>
+      <div class="offsetwidthscrollLeft">
+        <div class="mainscroll" id="naMe">
+          <div>
+            <img src="powerbank.jpg" alt="">
+            <p class="percentage">-23%</p>
+            <span class="text">itel 20000 mAh Mobile Po...</span>
+            <span class="discountPrice">&#x20A6 14,200</span>
+            <span class="formerPrice">&#x20A6 18,500</span>
+          </div>
+          <div>
+            <img src="Ace Elec Power Banks 200.jpg" alt="">
+            <p class="percentage">-29%</p>
+            <span class="text">Ace Elec Power Banks 200...</span>
+            <span class="discountPrice">&#x20A6 8,500</span>
+            <span class="formerPrice">&#x20A6 12,000</span>
+          </div>
+          <div>
+            <img src="Sun King Home 200X Plu....jpg" alt="">
+            <p class="percentage">-3%</p>
+            <span class="text">Sun king Home 200X Plu...</span>
+            <span class="discountPrice">&#x20A6 93,144</span>
+            <span class="formerPrice">&#x20A6 96,025</span>
+          </div>
+          <div>
+            <img src="Men palm.jpg" alt="">
+            <p class="percentage">-27%</p>
+            <span class="text">Men's palm Sandals PU L...</span>
+            <span class="discountPrice">&#x20A6 13,800</span>
+            <span class="formerPrice">&#x20A6 18,900</span>
+          </div>
+          <div>
+            <img src="f9.jpg" alt="">
+            <p class="percentage">-39%</p>
+            <span class="text">F9 Wireless Fingerprint To...</span>
+            <span class="discountPrice">&#x20A6 3,985</span>
+            <span class="formerPrice">&#x20A6 6,517</span>
+          </div>
+          <div>
+            <img src="infinix.jpg" alt="">
+            <p class="percentage">-19%</p>
+            <span class="text">Infinix Smart 8 6.6" 4GB R...</span>
+            <span class="discountPrice">&#x20A6 121,900</span>
+            <span class="formerPrice">&#x20A6 150,000</span>
+          </div>
+          <div>
+            <img src="in.jpg" alt="">
+            <p class="percentage">-32%</p>
+            <span class="text">2 in 1 Men's Short Sleeve</span>
+            <span class="discountPrice">&#x20A6 6,800</span>
+            <span class="formerPrice">&#x20A6 10,000</span>
+          </div>
+          <div>
+            <img src="this.jpg" alt="">
+            <p class="percentage">-48%</p>
+            <span class="text">2024 Men's Fashion Casu...</span>
+            <span class="discountPrice">&#x20A6 11,520</span>
+            <span class="formerPrice">&#x20A6 22,360</span>
+          </div>
+          <div>
+            <img src="Men's.jpg" alt="">
+            <p class="percentage">-35%</p>
+            <span class="text">Men's outdoor formal Le...</span>
+            <span class="discountPrice">&#x20A6 8,999</span>
+            <span class="formerPrice">&#x20A6 13,750</span>
+          </div>
+          <div>
+            <img src="s20.jpg" alt="">
+            <p class="percentage">-35%</p>
+            <span class="text">S20 Wireless Bluetooth E...</span>
+            <span class="discountPrice">&#x20A6 5,899</span>
+            <span class="formerPrice">&#x20A6 9,135</span>
+          </div>
+          <div>
+            <img src="comfortable.jpg" alt="">
+            <p class="percentage">-5%</p>
+            <span class="text">Comfortable Light Weight...</span>
+            <span class="discountPrice">&#x20A6 14,700</span>
+            <span class="formerPrice">&#x20A6 15,500</span>
+          </div>
+          <div>
+            <img src="wireless.jpg" alt="">
+            <p class="percentage">-26%</p>
+            <span class="text">Wireless Earpods Bluetooth...</span>
+            <span class="discountPrice">&#x20A6 3,689</span>
+            <span class="formerPrice">&#x20A6 4,999</span>
+          </div>
+          <div>
+            <img src="Midea.jpg" alt="">
+            <p class="percentage">none</p>
+            <span class="text">Midea 142 Litres Chest Fr...</span>
+            <span class="discountPrice">&#x20A6 159,500</span>
+            <span class="formerPrice">No discount</span>
+          </div>
+          <div>
+            <img src="pinnacle.jpg" alt="">
+            <p class="percentage">-3%</p>
+            <span class="text">Pinnacle 5.5kg Twin tub ...</span>
+            <span class="discountPrice">&#x20A6 68,000</span>
+            <span class="formerPrice">&#x20A6 70,000</span>
+          </div>
+          <div>
+            <img src="Ace Elec Power Banks 200.jpg" alt="">
+            <p class="percentage">-23%</p>
+            <span class="text">Ace Elec Power Banks 200...</span>
+            <span class="discountPrice">&#x20A6 9,300</span>
+            <span class="formerPrice">&#x20A6 12,000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="Firstsec" onmouseover="how()" >
+      <section>
+        <span> <i class="fa-brands fa-salesforce"></i>Flash Sale </span> <span id="time"> </span> <span>SEE ALL ></span>
+      </section>
+      <section id="eko" class="idontcare" >
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <span>-19%</span>
+              <img src="Six pieces-in-1 Quality An....jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <span>-9%</span>
+              <img src="wilson.jpg" alt="William Lawson's finest Blend...">
+              <figcaption><span>William Lawson's finest Blend...</span><span> &#8358 2,480</span> <del> &#8358
+                  2,735 </del> <span>9 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <span>-34%</span>
+              <img src="ear clip.jpg" alt="2023 Bone Condition Ear Clip ...">
+              <figcaption><span>2023 Bone Condition Ear Clip ...</span><span> &#8358 7,760</span> <del> &#8358
+                  11,780</del> <span>41 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <span>-51%</span>
+              <img src="goggle.jpg" alt="Photochromic Anti Blue Light G">
+              <figcaption><span>Photochromic Anti Blue Light G...</span><span> &#8358 3,199 </span> <del> &#8358
+                  6,474</del> <span>29 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <span>-70%</span>
+              <img src="one.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="two.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="three.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="three.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="four.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="five.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="six.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="one.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="two.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="three.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="four.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="five.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="six.jpg" REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="one.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="two.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="three.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="four.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+        <section class="insideSEc">
+          <section>
+            <figure>
+              <img src="five.jpg" alt="REDVNK MXR Formal pat...">
+              <figcaption><span>REDVNK MXR Formal pat...</span><span> &#8358 15,680 - &#8358 15,780</span> <del> &#8358
+                  20,514</del> <span>18 items left </span><span></span></figcaption>
+            </figure>
+          </section>
+        </section>
+      </section>
+      <section onclick="back()" class="backe"><i class="fa-solid fa-angle-left"></i></section>
+      <section onclick="go()" class="going"><i class="fa-solid fa-angle-right"></i> </section>
+    </section>
+  </div>
+  <script src="ani.js"></script>
+</body>
+
+</html>
