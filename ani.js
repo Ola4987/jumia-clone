@@ -291,3 +291,22 @@ first.addEventListener("scroll", () => {
     backe.classList.remove("shownow");
   }
 });
+const progressing = () => {
+  const moving = document.querySelector(`.moving`);
+  const offsetWidth = 590;
+  moving.scrollLeft += offsetWidth;
+};
+const wemove = () => {
+  const moving = document.querySelector(`.moving`);
+  const offsetWidth = 590;
+  moving.scrollLeft -= offsetWidth;
+};
+const moving = document.querySelector(`.moving`);
+moving.addEventListener("scroll", () => {
+  const anotherbacke = document.querySelector(`.anotherbacke`);
+  anotherbacke.classList.add("showbiko");
+  const offsetWidth = 100;
+  if (moving.scrollLeft <= offsetWidth) {
+    anotherbacke.classList.remove("showbiko");
+  }
+});
