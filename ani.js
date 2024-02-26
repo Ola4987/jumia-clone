@@ -24,17 +24,6 @@ let isdropdownsecond = false;
 //  does not want to obey the window.addeventlistener function , so i added the
 // remove me function and add it to the onclick function of the other dropdown and i do the opposite for readher function
 
-// let swapA = () => {
-//   let faju = document.getElementById("family");
-//   faju.classList.toggle("fa-angle-down", !isdropdownsecond);
-//   faju.classList.toggle("fa-angle-up", isdropdownsecond);
-// };
-
-// let swapI = () => {
-//   let dropdow = document.getElementById("down");
-//   dropdow.classList.toggle("fa-angle-down", !isDropdownOpen);
-//   dropdow.classList.toggle("fa-angle-up", isDropdownOpen);
-// };
 function swapIcon() {
   let dropdow = document.getElementById("down");
   dropdow.classList.toggle("fa-angle-up", !isDropdownOpen);
@@ -46,30 +35,6 @@ const swapArrow = () => {
   faju.classList.toggle("fa-angle-up", !isdropdownsecond);
   faju.classList.toggle("fa-angle-down", isdropdownsecond);
 };
-
-// removeme = () => {
-//   let n = document.getElementById("dropdown-conten");
-//   n.classList.remove("show");
-//   let id = ["dropdow", "down", "user", "dropdown-conten"];
-//   swapIcon();
-//   for (let i = 0; i < id.length; i++) {
-//     const currentColor = id[i];
-//     let no = document.getElementById(currentColor);
-//     no.style.removeProperty("background-color");
-//   }
-// };
-// removeher = () => {
-//   let dropme = document.getElementById("dropme");
-//   dropme.classList.remove("showme");
-//   let array = ["2nddropdownbtn", "family", "spanner", "o1"];
-//   swapArrow();
-//   let content = document.getElementById("dropme");
-//   for (let i = 0; i < array.length; i++) {
-//     const element = array[i];
-//     let id = document.getElementById(element);
-//     id.style.removeProperty("background-color");
-//   }
-// };
 
 const oppoff = () => {
   let id = ["2nddropdownbtn", "family", "spanner", "o1"];
@@ -245,36 +210,7 @@ let doIt = () => {
   setInterval(changeImg, 3000);
 };
 window.onload = doIt();
-//  code that will work as an alternatives
-// const divContainer = [...document.querySelectorAll(`.divContainer`)];
-// const right = [...document.querySelectorAll(`.arrowdiv`)];
-// const left = [...document.querySelectorAll(`.arrowdiv2`)];
-// divContainer.forEach((item, i) => {
-//   let containerDimension = item.getBoundingClientRect();
-//   let containerwidth = containerDimension.width;
 
-//   right[i].addEventListener(`click`, () => {
-//     item.scrollLeft += containerwidth;
-//   });
-//   left[i].addEventListener(`click`, () => {
-//     item.scrollLeft -= containerDimension;
-//   });
-// });
-// const divContainer = document.getElementById("likedropdown");
-// const right = document.getElementById("front");
-// const left = document.getElementById("left");
-
-// right.addEventListener(`click`, () => {
-//   let containerDimension = divContainer.getBoundingClientRect();
-//   let containerwidth = containerDimension.width;
-//   divContainer.scrollLeft += containerwidth;
-// });
-
-// left.addEventListener(`click`, () => {
-//   let containerDimension = divContainer.getBoundingClientRect();
-//   let containerwidth = containerDimension.width;
-//   divContainer.scrollLeft -= containerwidth;
-// });
 const divContainer = document.getElementById("likedropdown");
 const right = document.getElementById("front");
 const left = document.getElementById("left");

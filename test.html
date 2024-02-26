@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        background-color: black;
+      }
+      .container {
+        display: flex;
+        height: 50px;
+        width: 300px;
+        position: relative;
+      }
+      .container input {
+        border: none;
+        background-color: whitesmoke;
+        height: 100%;
+        width: 100%;
+        padding-left: 45px;
+        position: absolute;
+      }
+      .container span {
+        border-radius: 20px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 20%;
+        left: 80%;
+        height: 30px;
+        width: 80px;
+        color: white;
+        background-color: #1da1f2;
+        position: absolute;
+      }
+      .container img {
+        border-radius: 50%;
+        position: absolute;
+        align-self: center;
+        width: 40px;
+        height: 40px;
+        z-index: 1000;
+        top: 6px;
+        left: 2px;
+      }
+    </style>
+    <div class="container">
+      <img src="yy.jpg" />
+      <input type="text" placeholder="what is happening?" />
+
+      <span><p>Tweet</p></span>
+    </div>
+  </body>
+</html>
