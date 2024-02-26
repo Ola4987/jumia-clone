@@ -2,6 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+}
+
+body {
+  background-color: greenyellow;
 }
 
 .longlogocontainer {
@@ -510,11 +515,6 @@
   align-self: center;
 }
 
-.aftercenterM {
-  background-color: whitesmoke;
-  width: 1280px;
-}
-
 .aftercenter {
   overflow: hidden;
   display: flex;
@@ -797,7 +797,7 @@
   gap: 5px;
   display: flex;
   width: 1188px;
-  background-color: brown;
+  background-color: whitesmoke;
   height: 341px;
 }
 
@@ -858,7 +858,6 @@
   align-items: center;
 }
 
-
 .Firstsec>section:nth-child(4) {
   position: absolute;
   top: 50%;
@@ -871,7 +870,6 @@
   justify-content: center;
   align-items: center;
 }
-
 
 .Firstsec:hover>section:nth-child(4) {
   display: flex;
@@ -887,4 +885,21 @@
 
 .commot {
   display: none;
+}
+
+.secondSec {
+  margin-top: 25px;
+  margin-left: 40px;
+  height: 340px;
+  width: 1188px;
+  background-color: red;
+}
+
+.secondSec>section:nth-child(1) {
+  gap: 950px;
+  display: flex;
+  align-items: center;
+  background-color: #96D2C8;
+  width: 1188px;
+  height: 48px;
 }
